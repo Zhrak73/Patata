@@ -1,6 +1,13 @@
 numero1 = int(input ("Introduzca primer número ")) 
 numero2 = int(input ("Introduzca segundo número ")) 
 numero3 = int(input ("Introduzca tercer número ")) 
+"""
+ Compara tres números e imprime cuál es el mayor, o si son iguales.
+ Args:
+ a (int): primer número ingresado por el usuario.
+ b (int): segundo número ingresado.
+ c (int): tercer número ingresado.
+ """
 if numero1==numero2==numero3: 
 print("Los números son todos iguales y por ende ninguno es mayor o inferior a otro") 
 if numero1==numero2<numero3: 
